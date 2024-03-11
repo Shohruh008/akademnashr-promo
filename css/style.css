@@ -1,114 +1,130 @@
-.site-header{
-background-color: white;
+body{
+font-size: 16px;
+line-height: 1.5;
+font-family: "Roboto";
 }
-.sitenav-list{
-list-style: none;
+.site-header {
+  background-color: white;
 }
-.sitenav-link{
-font-size: 13px;
-line-height: 15px;
-font-weight: 500;
-letter-spacing: 1px;
-text-transform: uppercase;
-text-decoration: none;
-color: black;
+
+.sitenav-list {
+  list-style: none;
 }
-.main-link{
-font-size: 13px;
-line-height: 15px;
-background-color: #ff7500;
-color: white;
-text-decoration: none;
+
+.sitenav-link {
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
 }
-.hero{
-background-color: #252420;
-color: white;
+
+.main-link {
+  font-family: "Roboto";
+  font-size: 13px;
+  line-height: 15px;
+  background-color: #ff7500;
+  color: white;
+  text-decoration: none;
 }
-.hero-content{
+
+.hero {
+  background-color: #252420;
+  color: white;
+}
+
+.hero-content {
   width: 390px;
 }
-.orange-line{
+
+.orange-line {
   width: 80px;
   height: 3px;
   background-color: #ff7500;
 }
-.hero-heading{
-font-size: 40px;
-line-height: 1.2;
-letter-spacing: 0.5px;
+
+.hero-heading {
+  font-family: "Roboto Condensed";
+  font-size: 40px;
+  line-height: 1.2;
 }
-.hero-text{
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.5px;
-}
-.hero-img{
+
+.hero-img {
   width: 510px;
   height: 510px;
 }
-.features-heading{
-width: 440px;
-font-size: 72px;
-line-height: 1.2;
-letter-spacing: 0.5px;
+
+.features-heading {
+  font-family: "Roboto Condensed";
+  width: 440px;
+  font-size: 72px;
+  line-height: 1.2;
 }
-.feature{
-width: 340px;
+
+.feature {
+  width: 340px;
 }
-.feature-icon-wrapper{
-width: 100px;
-height: 100px;
-background:rgba(225, 117, 0, 0.2) ;
+
+.feature-icon-wrapper {
+  width: 100px;
+  height: 100px;
+  background: rgba(225, 117, 0, 0.2);
 }
-.feature-title{
-font-size: 24px;
-line-height: 1.2;
-letter-spacing: 0.5px;
+
+.feature-title {
+  font-family: "Roboto Condensed";
+  font-size: 24px;
+  line-height: 1.2;
 }
-.feature-info{
-font-style: 16px;
-line-height: 1.5;
+
+.promo {
+  background-color: #252420;
+  color: #fff;
 }
-.promo{
-background-color: #252420;
-color: #fff;
-}
-.promo-content{
+
+.promo-content {
   width: 440px;
 }
-.promo-heading{
-font-size: 40px;
-line-height: 48;
+
+.promo-heading {
+  font-size: 40px;
+  line-height: 48;
+  font-family: "Roboto Condensed";
+
 }
-.prmo-text{
-font-style: 16px;
-line-height: 1.5;
+
+.promo-highlight {
+  color: #ff7500;
 }
-.promo-highlight{
-color: #ff7500;
+
+.promo-img {
+  width: 440px;
+  height: 440px;
+  object-fit: cover;
 }
-.promo-img{
-width: 440px;
-height: 440px;
-object-fit: cover;
-}
-.site-footer{
+
+.site-footer {
   border-color: #f8f8f8;
 }
-.site-footer ul{
+
+.site-footer ul {
   list-style-type: none;
 }
-.site-footer-devider{
+
+.site-footer-devider {
   height: 2px;
-background-color: rgba(37, 36, 32, 0.5)
+  background-color: rgba(37, 36, 32, 0.5)
 }
-.site-footer-links{
+
+.site-footer-links {
   width: 224px;
+  line-height: 19px;
 }
-.site-footer-links a{
-text-decoration: none;
-font-size: 16px;
-line-height: 19px;
-text-decoration: none;
-color: #252420;
+
+.site-footer-links a {
+  text-decoration: none;
+  color: #252420;
 }
