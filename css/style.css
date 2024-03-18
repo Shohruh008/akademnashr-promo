@@ -3,6 +3,10 @@ font-size: 16px;
 line-height: 1.5;
 font-family: "Roboto";
 }
+*{
+outline: 2px dotted #ff7500;
+outline-offset: 3px;
+}
 .site-header {
   display: flex;
   align-items: center;
@@ -193,6 +197,6 @@ color: #ff7500;
 .site-footer-links a:hover{
 color: #ff7500;
 }
-.site-footer-links a:focus{
+.site-footer-links a:active{
 opacity: 0.6;
 }
